@@ -43,3 +43,5 @@ spec:
     - name: trivycache
       hostPath:
         path: /tmp/trivycache/
+    - name: kaniko
+        image: gcr.io/kaniko-project/executor:v1.6.0-debug
